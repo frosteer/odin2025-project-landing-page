@@ -6,16 +6,17 @@
 
 body { 
   font-family: 'Roboto', sans-serif; 
-  width: 80%;
   margin: 0 auto;
 }
+
+/* 1st section: nagivation */
 
 .container-nav {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 5px 0px;
+  padding: 10px 120px;
 }
 
 .container-nav p {
@@ -26,14 +27,24 @@ body {
 .container-header-link {
   display: flex;
   gap: 15px;
-  padding: 15px 0px;
   font-size: 18px;
   color: #e5e7eb;
 }
 
+/* 2nd section: Hero */
+
 .container-hero {
   display: flex;
   background-color: #1f2937;
+  padding: 30px 120px;
+  gap: 15px;
+}
+
+.container-left-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
 }
 
 .container-hero .title {
@@ -47,3 +58,37 @@ body {
   color: #e5e7eb;
 }
 
+.container-hero button {
+  color: #F9FAF8;
+  background-color: #3882f6;
+  border-radius: 6px;
+  padding: 10px 50px;
+  max-width: 300px;
+}
+
+.container-right-image {
+  display: flex;
+  flex: 1;
+}
+
+.container-right-image img {
+  max-width: 100%;
+}
+
+/* 3rd section: Information */
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-info .title {
+  font-size: 36px;  
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.container-cards {
+  display: flex;
+  
+}
