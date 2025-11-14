@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 10px 120px;
+  padding: 50px 120px;
 }
 
 .container-nav p {
@@ -36,7 +36,7 @@ body {
 .container-hero {
   display: flex;
   background-color: #1f2937;
-  padding: 30px 120px;
+  padding: 50px 120px;
   gap: 15px;
 }
 
@@ -80,15 +80,85 @@ body {
 .container-info {
   display: flex;
   flex-direction: column;
+  padding: 50px 160px;
+  align-items: center;
 }
 
 .container-info .title {
   font-size: 36px;  
   color: #1f2937;
   font-weight: 900;
+  padding: 30px 0px;
+
 }
 
 .container-cards {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
   
+}
+
+.container-card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-card-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*4th section: quote*/
+
+.container-quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  padding: 120px;
+}
+
+.container-quote p:nth-child(2) {
+  font-weight: bold;
+  text-align: right;
+}
+
+/*5th section: cta*/
+
+.container-cta {
+  display: flex;
+  padding: 30px 50px;
+  background-color: #3882f6;
+  margin: 80px 120px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.container-cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #F9FAF8
+}
+
+.container-cta button {
+  color: #F9FAF8;
+  background-color: #3882f6;
+  border-radius: 6px;
+  padding: 10px 50px;
+  max-width: 300px;
+  border-color: #F9FAF8;
+}
+
+/*6th section: footer*/
+
+.container-footer {
+  background-color: #1f2937;
+  color: #F9FAF8;
+  padding: 20px 0px;
+  text-align: center;
 }
